@@ -13,7 +13,7 @@ You can choose to install as a Git submodule. Or you can download as a zip archi
 These instructions will create a git submodule under the __.themes/forest__ directory. From your blog directory, run these commands.
 
 ``` sh
-git submodule add git://github.com/octopress-themes/forest.git .themes/forest
+git submodule add git://github.com/octothemes/forest.git .themes/forest
 ```
 
 You should then commit the changes.
@@ -69,13 +69,13 @@ Remove the theme entry from the __.gitmodules__ file. The entry should look like
 ```
 [submodule ".themes/forest"]
   path = .themes/forest
-  url = https://github.com/octopress-themes/forest.git
+  url = https://github.com/octothemes/forest.git
 ```
 
 Remove the theme from the __.git/config__ file. The entry should look like this:
 ```
 [submodule ".themes/forest"]
-  url = https://github.com/octopress-themes/forest.git
+  url = https://github.com/octothemes/forest.git
 ```
 
 Remove the theme files with Git.
